@@ -1,0 +1,35 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Poker Hand </h1>
+            <h3 class="cards">
+                <span>&spades;</span>
+                <span>&hearts;</span>
+                <span>&clubs;</span>
+                <span>&diams;</span>
+            </h3>
+            <div class="containerInput" style="display: inline-flex;">
+                <div class="inputPlayer">
+                    <label for="playerOneInput">Myself :</label>
+                    <input type="text" id="player1">
+                    <div class="result" id="playerResult"></div>
+                <br>
+                </div>
+                <div style="margin-left: 2rem;">
+                    <label for="inputOther">Opponent :</label>    
+                    <input type="text" id="player2">                
+                    <div class="result" id="oppoResult"></div>
+                </div>                      
+            </div>
+            <br>            
+            <button class="btn" type="submit" id="submit-btn">Submit</button>
+            <h3 id="displayResult"></h3>    
+            <div id="message">Please input your poker hands</div>
+        </div>
+        <!-- <button type="submit" id="submit-btn">Submit</button> -->
+        <script type="text/javascript" src="PokerHand.js">
+        </script>
+    </body>
+</html>
